@@ -7,11 +7,10 @@
 # Module 17 - Supervised Machine Learning and Credit Risk
 
 ## Overview of Project
-This challenge used a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup in the past. The models being created will help the foundation predict where to make investments.
+This challenge used data from the LoanStats CSV file to evaluated credit risk. Credit risk is an inherently unbalanced classification problem because good loans far outnumber the risky loans.
 
 ## Analysis Two Jupyter notebook
-* [Atomic:] There are 2 Jupyter notebook files AlphabetSoupCharity and AlphabetSoupCharity -  
-            Optimization that have been created for the model.
+* [Atomic:] There are 2 Jupyter notebook files credit_risk_ensemble and credit_risk_resampling that  have been created for the model.
 
 ## Summary  Accuracy Achieved
-* [Atomic:] The model received an accuracy of 73% (https://github.com/lykkelig/Neural_Network_Charity_Analysis/blob/main/Accuracy.png)
+* [Atomic:] The ensemble model acheived a recall of 97% (https://github.com/lykkelig/Credit_Risk_Analysis/blob/main/Ensemble.png). The resampling model only acheived a recall of 73% (https://github.com/lykkelig/Credit_Risk_Analysis/blob/main/Resampling.png)
